@@ -1,0 +1,8 @@
+def has_duplicates(items):
+    seen = []
+    for item in items:
+        for seen_item in seen:
+            if item == seen_item:
+                return True
+        seen.append(item)
+    return False
