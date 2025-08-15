@@ -1,0 +1,15 @@
+def find_min(numbers):
+  if not numbers:
+    return no
+    min_number =number[0]
+  for number in numbers:
+     if number < min_number:
+        min_number = number 
+return min_number 
+
+
+
+
+        if number < min_number:
+            min_number = number
+    return min_numbe
